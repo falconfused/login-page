@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/0f99193a4c.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="logincontainer">
+        <div class="cartimage" id="cartimage">
+            <img id="image" class="image"
+                src="https://res.cloudinary.com/dle0zaaun/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1676884262/Group_sljpct.jpg"
+                alt="">
+        </div>
+
+        <div class="userinput" id="userinput">
+            <i class="fa-regular fa-user icon"></i>
+            <input class="user" id="user" type="text" placeholder="USERNAME">
+        </div>
+        <div class="password" id="passworddiv">
+            <i class="fa-solid fa-lock icon"></i>
+            <input class="user" id="password" type="password" placeholder="PASSWORD">
+        </div>
+        <div class="" id="failure">
+            <p class="" id="failuretext">Enter A Valid Password</p>
+        </div>
+        <div class="login" id="login" onclick="check()">
+            <img class="" src="" alt="">
+            <button class="user login-button" >LOGIN</button>
+        </div>
+        <div class="userinput" id="success">
+
+            <button class="user ">You've Succesfully Logged In</button>
+        </div>
+
+        <div class=" login" id="logout" onclick="redirect()">
+            <img class="" src="" alt="">
+            <button class="user login-button" >LOGOUT</button>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
